@@ -7,12 +7,14 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ice_pbru.suksaovavimon.nijwaree.fondatabase.SignUp">
+    tools:context="ice_pbru.suksaovavimon.nijwaree.fondatabase.SignUp"
+    android:background="@drawable/bg2">
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button3">
 
         <TextView
             android:layout_width="match_parent"
@@ -22,12 +24,17 @@
             android:textSize="50dp"
             android:textStyle="bold"
             android:gravity="center_horizontal"
-            android:textColor="#060505" />
+            android:textColor="#060505"
+            android:layout_gravity="top"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="45dp"
+            android:background="#34ffffff" />
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="#34ffffff">
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -39,8 +46,9 @@
                     android:layout_height="wrap_content"
                     android:text="Name :"
                     android:id="@+id/textView2"
-                    android:textSize="25dp"
-                    android:textColor="#080707" />
+                    android:textSize="@dimen/h2"
+                    android:textColor="#080707"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:layout_width="wrap_content"
@@ -48,7 +56,7 @@
                     android:inputType="textPersonName"
                     android:ems="10"
                     android:id="@+id/editText"
-                    android:textSize="25dp"
+                    android:textSize="@dimen/h2"
                     android:layout_marginLeft="20dp" />
             </LinearLayout>
 
@@ -62,8 +70,9 @@
                     android:layout_height="wrap_content"
                     android:text="Surname :"
                     android:id="@+id/textView3"
-                    android:textSize="25dp"
-                    android:textColor="#080707" />
+                    android:textSize="@dimen/h2"
+                    android:textColor="#080707"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:layout_width="wrap_content"
@@ -71,7 +80,7 @@
                     android:inputType="textPersonName"
                     android:ems="10"
                     android:id="@+id/editText2"
-                    android:textSize="25dp"
+                    android:textSize="@dimen/h2"
                     android:layout_marginLeft="20dp" />
             </LinearLayout>
 
@@ -85,8 +94,9 @@
                     android:layout_height="wrap_content"
                     android:text="Username :"
                     android:id="@+id/textView4"
-                    android:textSize="25dp"
-                    android:textColor="#080707" />
+                    android:textSize="@dimen/h2"
+                    android:textColor="#080707"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:layout_width="wrap_content"
@@ -94,7 +104,7 @@
                     android:inputType="textPersonName"
                     android:ems="10"
                     android:id="@+id/editText3"
-                    android:textSize="25dp"
+                    android:textSize="@dimen/h2"
                     android:layout_marginLeft="20dp" />
             </LinearLayout>
 
@@ -108,15 +118,16 @@
                     android:layout_height="wrap_content"
                     android:text="Password :"
                     android:id="@+id/textView5"
-                    android:textSize="25dp"
-                    android:textColor="#080707" />
+                    android:textSize="@dimen/h2"
+                    android:textColor="#080707"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:id="@+id/editText4"
-                    android:textSize="25dp"
+                    android:textSize="@dimen/h2"
                     android:inputType="numberPassword"
                     android:layout_marginLeft="20dp" />
             </LinearLayout>
@@ -131,8 +142,9 @@
                     android:layout_height="wrap_content"
                     android:text="E-mail :"
                     android:id="@+id/textView6"
-                    android:textSize="25dp"
-                    android:textColor="#080707" />
+                    android:textSize="@dimen/h2"
+                    android:textColor="#080707"
+                    android:textStyle="bold" />
 
                 <EditText
                     android:layout_width="wrap_content"
@@ -140,7 +152,7 @@
                     android:inputType="textEmailAddress"
                     android:ems="10"
                     android:id="@+id/editText5"
-                    android:textSize="25dp"
+                    android:textSize="@dimen/h2"
                     android:layout_marginLeft="20dp" />
             </LinearLayout>
         </LinearLayout>
@@ -153,5 +165,7 @@
         android:text="Sign up"
         android:id="@+id/button3"
         android:layout_alignParentBottom="true"
-        android:textSize="30dp" />
+        android:textSize="30dp"
+        android:background="#ff8896"
+        android:textStyle="bold" />
 </RelativeLayout>
