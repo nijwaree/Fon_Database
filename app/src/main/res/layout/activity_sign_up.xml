@@ -48,7 +48,8 @@
                     android:id="@+id/textView2"
                     android:textSize="@dimen/h2"
                     android:textColor="#080707"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp" />
 
                 <EditText
                     android:layout_width="wrap_content"
@@ -72,7 +73,8 @@
                     android:id="@+id/textView3"
                     android:textSize="@dimen/h2"
                     android:textColor="#080707"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp" />
 
                 <EditText
                     android:layout_width="wrap_content"
@@ -96,7 +98,8 @@
                     android:id="@+id/textView4"
                     android:textSize="@dimen/h2"
                     android:textColor="#080707"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp" />
 
                 <EditText
                     android:layout_width="wrap_content"
@@ -120,7 +123,8 @@
                     android:id="@+id/textView5"
                     android:textSize="@dimen/h2"
                     android:textColor="#080707"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp" />
 
                 <EditText
                     android:layout_width="wrap_content"
@@ -144,7 +148,8 @@
                     android:id="@+id/textView6"
                     android:textSize="@dimen/h2"
                     android:textColor="#080707"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp" />
 
                 <EditText
                     android:layout_width="wrap_content"
@@ -167,5 +172,6 @@
         android:layout_alignParentBottom="true"
         android:textSize="30dp"
         android:background="#ff8896"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        android:layout_marginTop="10dp" />
 </RelativeLayout>

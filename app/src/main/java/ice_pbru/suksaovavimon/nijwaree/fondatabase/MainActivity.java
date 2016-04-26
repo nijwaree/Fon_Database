@@ -40,6 +40,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void testmyAlert(View view) {
+        MyAlert myAlert = new MyAlert();
+        myAlert.myDialog(this,"Alert", "ทดสอบ");
+
+    }
+
+
 
 
 

@@ -33,5 +33,6 @@
         android:textSize="30dp"
         android:textColor="#020202"
         android:textStyle="bold"
-        android:background="#ff8896" />
+        android:background="#ff8896"
+        android:onClick="testmyAlert" />
 </RelativeLayout>
