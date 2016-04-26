@@ -9,4 +9,23 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="ice_pbru.suksaovavimon.nijwaree.fondatabase.MainActivity">
 
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="30dp"
+        android:textColor="#090808" />
+
+    <Button
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:id="@+id/button2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textSize="30dp"
+        android:textColor="#020202" />
 </RelativeLayout>
