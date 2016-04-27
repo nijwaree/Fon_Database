@@ -21,7 +21,8 @@
         android:textColor="#090808"
         android:onClick="clickRegis"
         android:textStyle="bold"
-        android:background="#ff8896" />
+        android:background="#ff8896"
+        android:layout_marginBottom="5dp" />
 
     <Button
         android:layout_width="280dp"
@@ -34,5 +35,54 @@
         android:textColor="#020202"
         android:textStyle="bold"
         android:background="#ff8896"
-        android:onClick="testmyAlert" />
+        android:onClick="clickSignIn"
+        android:layout_marginBottom="5dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="160dp"
+        android:background="#34ffffff">
+
+        <ImageView
+            android:layout_width="450dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/wel" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText6"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="@dimen/h2"
+            android:hint="Username" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberPassword"
+            android:ems="10"
+            android:id="@+id/editText7"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="@dimen/h2"
+            android:hint="Password" />
+
+    </LinearLayout>
 </RelativeLayout>
