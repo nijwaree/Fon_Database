@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
 
     private String nameString, passwordString;
 
+    private MySQLite mySQLite;
+
 
 
     @Override
@@ -24,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
         // bindwidget
 
         bindwidget();
+
+        mySQLite = new MySQLite(this);
 
 
 
