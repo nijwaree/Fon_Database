@@ -41,7 +41,7 @@ public class MySQLite {
         contentValues.put(colum_Surname, strSurname);
         contentValues.put(colum_User, strUser);
         contentValues.put(colum_Password, strPassword);
-        contentValues.put(colum_Password, strEmail);
+        contentValues.put(colum_Email, strEmail);
 
         return sqLiteDatabase.insert(user_table, null, contentValues);
 
